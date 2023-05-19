@@ -1,0 +1,768 @@
+#columnaincribir {
+  margin-bottom: 8rem;
+}
+
+#columnaCentral {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+#PerfilEgreso {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.btn {
+  margin-top: 1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  border: solid;
+  border-width: thin;
+  border-radius: 27px;
+  font-family: "Open Sans","Helvetica Neue",Arial,sans-serif;
+}
+
+.btn-check:checked + .btn-outline-primary:focus, .btn-check:active + .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus {
+  box-shadow: 0 0 0 .25rem rgba(130, 0, 44 ,.5);
+}
+
+.btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
+  box-shadow: 0 0 0 .25rem rgba(130, 0, 44 ,.5);
+}
+
+.btn-outline-primary {
+  color: #CF3E6E;
+  border-color: #CF3E6E;
+}
+
+@media (min-width: 992px) {
+  section {
+    padding-top: 0;
+    padding-bottom: 8rem;
+  }
+}
+
+#pieDePagina {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+  bottom: 0;
+  color: #fff;
+}
+
+.row {
+  --bs-gutter-x: 0.2rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -.2);
+  margin-left: calc(var(--bs-gutter-x) * -.2);
+}
+
+@media (min-width: 576px) {
+  .col-sm-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    max-width: 33.3%;
+  }
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: "Open Sans","Helvetica Neue",Arial,sans-serif;
+}
+
+.footer-navigation p.company-name {
+  color: #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 2rem;
+}
+
+.fa.footer-contacts-icon {
+  background-color: #33383b;
+  font-size: 18px;
+  color: #FFF;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 38px;
+  margin: 10px 15px 10px 0;
+}
+
+@media (min-width: 1200px) {
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1300px;
+  }
+}
+
+.btn-outline-primary:hover {
+  color: white;
+  background-color: #CF3E6E;
+  border-color: #CF3E6E;
+}
+
+#planEstudio {
+  padding: 0.8rem;
+  font-size: 1.3rem;
+}
+
+#PerfilEgreso h1 {
+  color: #CF3E6E;
+  font-weight: 700;
+  font-family: 'Merriweather';
+  padding-bottom: 1.5rem;
+}
+
+#PerfilEgreso p {
+  font-size: 1.3rem;
+  font-family: 'Spectral';
+  color: #868e96;
+}
+
+#listaegreso li::before {
+  font-weight: bold;
+  content: ">";
+  padding-right: 8px;
+  color: #CF3E6E;
+}
+
+#PerfilEgreso li {
+  font-size: 1.3rem;
+  font-family: 'Spectral';
+  color: #868e96;
+}
+
+#listaegreso {
+  list-style: none;
+}
+
+#columnaCentral {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 6rem;
+  padding-top: 6rem;
+}
+
+#parrafoPlan {
+  color: white;
+  font-weight: 600;
+  font-size: 1.3rem;
+  font-family: 'Merriweather';
+  margin-top: 1rem;
+}
+
+#tituloPlan {
+  color: white;
+  font-weight: 400;
+  font-family: 'Merriweather';
+}
+
+.font20 {
+  font-size: 20px;
+}
+
+.spectral {
+  font-family: 'Spectral';
+}
+
+.text-color {
+  color: #789283;
+}
+
+.mh-50vh {
+  min-height: 50vh;
+}
+
+section {
+  padding-bottom: 8rem;
+  padding-top: 0;
+}
+
+#Titulo {
+  padding-top: 3rem;
+  margin-left: 1rem;
+}
+
+#TituloNegro {
+  margin-left: 1rem;
+  margin-top: 6rem;
+  position: absolute;
+  color: black;
+}
+
+/* PAGINA ALIMENTOS */
+
+@media (min-width: 300px) {
+  #TituloNegro {
+    margin-left: 1.2rem;
+    margin-top: 6rem;
+    position: absolute;
+    color: black;
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 300px) {
+  #TituloBlanco {
+    position: absolute;
+    margin-left: 1.7rem;
+    margin-top: 6rem;
+    padding-bottom: 0.5rem;
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 576px) {
+  #TituloBlanco {
+    position: absolute;
+    margin-left: 1.7rem;
+    margin-top: 6rem;
+    padding-bottom: 0.5rem;
+    font-size: 7rem;
+  }
+}
+
+@media (min-width: 576px) {
+  #TituloNegro {
+    margin-left: 1rem;
+    margin-top: 6rem;
+    position: absolute;
+    color: black;
+    font-size: 7rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #TituloBlanco {
+    position: absolute;
+    margin-left: 1.7rem;
+    margin-top: 6rem;
+    padding-bottom: 0.5rem;
+    font-size: 7rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #TituloNegro {
+    margin-left: 1rem;
+    margin-top: 6rem;
+    position: absolute;
+    color: black;
+    font-size: 7rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #TituloBlanco {
+    position: absolute;
+    margin-left: 4rem;
+    margin-top: 6rem;
+    padding-bottom: 0.5rem;
+    font-size: 8rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #TituloNegro {
+    margin-left: 3rem;
+    margin-top: 6rem;
+    position: absolute;
+    color: black;
+    font-size: 8rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #TituloBlanco {
+    position: absolute;
+    margin-left: 5rem;
+    margin-top: 6rem;
+    padding-bottom: 0.5rem;
+    font-size: 7rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #TituloNegro {
+    margin-left: 4.5rem;
+    margin-top: 6rem;
+    position: absolute;
+    color: black;
+    font-size: 7rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  #TituloNegro {
+    margin-left: 0.5rem;
+    margin-top: 7rem;
+    position: absolute;
+    color: black;
+    font-size: 9rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  #TituloBlanco {
+    position: absolute;
+    margin-left: 1rem;
+    margin-top: 7rem;
+    padding-bottom: 0.5rem;
+    font-size: 9rem;
+  }
+}
+
+#infoCarrera {
+  padding: 2rem;
+  margin-bottom: 6rem;
+}
+
+#columnaincribir {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 6rem;
+  padding-top: 6rem;
+}
+
+#incribir {
+  padding: 0.8rem;
+  padding-bottom: 8rem;
+}
+
+#tituloInscr {
+  color: white;
+  font-weight: bold;
+  font-family: 'Merriweather';
+}
+
+#parrafoInsc {
+  color: white;
+  font-size: 1.3rem;
+  font-family: 'Merriweather';
+  margin-top: 1rem;
+}
+
+#inscripcion {
+  padding: 0.8rem;
+  font-size: 1.3rem;
+}
+
+#Contenido2 {
+  padding-top: 0;
+  padding-bottom: 8rem;
+}
+
+/* PAGINA ARQUITECTURA,CONTABILIDAD,MECATRONICA */
+
+@media (min-width: 300px) {
+  #TituloBlanco1 {
+    margin-left: 2.5rem;
+    margin-top: 6.7rem;
+    position: absolute;
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 300px) {
+  #TituloNegro1 {
+    margin-left: 2.3rem;
+    margin-top: 6.9rem;
+    position: absolute;
+    font-size: 3rem;
+    color: black;
+  }
+}
+
+@media (min-width: 576px) {
+  #TituloBlanco1 {
+    margin-left: 3.7rem;
+    margin-top: 6.7rem;
+    position: absolute;
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 576px) {
+  #TituloNegro1 {
+    margin-left: 3.3rem;
+    margin-top: 6.9rem;
+    position: absolute;
+    font-size: 5rem;
+    color: black;
+  }
+}
+
+@media (min-width: 768px) {
+  #TituloBlanco1 {
+    margin-left: 4.7rem;
+    margin-top: 6.5rem;
+    position: absolute;
+    font-size: 7rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #TituloNegro1 {
+    margin-left: 4.3rem;
+    margin-top: 6.9rem;
+    position: absolute;
+    font-size: 7rem;
+    color: black;
+  }
+}
+
+@media (min-width: 992px) {
+  #TituloNegro1 {
+    margin-left: 1.3rem;
+    margin-top: 6.9rem;
+    position: absolute;
+    font-size: 10rem;
+    color: black;
+  }
+}
+
+@media (min-width: 992px) {
+  #TituloBlanco1 {
+    margin-left: 1.8rem;
+    margin-top: 6.6rem;
+    position: absolute;
+    font-size: 10rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #TituloBlanco1 {
+    margin-left: 8.8rem;
+    margin-top: 6.6rem;
+    position: absolute;
+    font-size: 10rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #TituloNegro1 {
+    margin-left: 8.4rem;
+    margin-top: 7rem;
+    position: absolute;
+    color: black;
+    font-size: 10rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  #TituloBlanco1 {
+    position: absolute;
+    margin-left: 17rem;
+    margin-top: 7rem;
+    padding-bottom: 0.5rem;
+    font-size: 10rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  #TituloNegro1 {
+    margin-left: 16.4rem;
+    margin-top: 7rem;
+    position: absolute;
+    color: black;
+    font-size: 10rem;
+  }
+}
+
+/* PAGINA ENFERMERIA,LABORATORIO */
+
+@media (min-width: 300px) {
+  #TituloBlanco2 {
+    position: absolute;
+    margin-left: 0.5rem;
+    margin-top: 7.3rem;
+    padding-bottom: 0.5rem;
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 300px) {
+  #TituloNegro2 {
+    position: absolute;
+    margin-left: 0rem;
+    margin-top: 7.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 3.5rem;
+    color: black;
+  }
+}
+
+@media (min-width: 576px) {
+  #TituloBlanco2 {
+    position: absolute;
+    margin-left: 2.3rem;
+    margin-top: 7.3rem;
+    padding-bottom: 0.5rem;
+    font-size: 5.5rem;
+  }
+}
+
+@media (min-width: 576px) {
+  #TituloNegro2 {
+    position: absolute;
+    margin-left: 1.7rem;
+    margin-top: 7.7rem;
+    padding-bottom: 0.5rem;
+    font-size: 5.5rem;
+    color: black;
+  }
+}
+
+@media (min-width: 768px) {
+  #TituloBlanco2 {
+    position: absolute;
+    margin-left: 2.3rem;
+    margin-top: 7.1rem;
+    padding-bottom: 0.5rem;
+    font-size: 7.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #TituloNegro2 {
+    position: absolute;
+    margin-left: 1.5rem;
+    margin-top: 7.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 7.8rem;
+    color: black;
+  }
+}
+
+@media (min-width: 992px) {
+  #TituloBlanco2 {
+    position: absolute;
+    margin-left: 3.9rem;
+    margin-top: 7.1rem;
+    padding-bottom: 0.5rem;
+    font-size: 6rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #TituloNegro2 {
+    position: absolute;
+    margin-left: 3.5rem;
+    margin-top: 7.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 6rem;
+    color: black;
+  }
+}
+
+@media (min-width: 1200px) {
+  #TituloBlanco2 {
+    position: absolute;
+    margin-left: 7.9rem;
+    margin-top: 7.1rem;
+    padding-bottom: 0.5rem;
+    font-size: 7rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #TituloNegro2 {
+    position: absolute;
+    margin-left: 7.5rem;
+    margin-top: 7.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 7rem;
+    color: black;
+  }
+}
+
+@media (min-width: 1400px) {
+  #TituloNegro2 {
+    position: absolute;
+    margin-left: 8.5rem;
+    margin-top: 7.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 8rem;
+    color: black;
+  }
+}
+
+@media (min-width: 1400px) {
+  #TituloBlanco2 {
+    position: absolute;
+    margin-left: 9rem;
+    margin-top: 7rem;
+    padding-bottom: 0.5rem;
+    font-size: 8rem;
+  }
+}
+
+/* PAGINA PROGRAMACION */
+
+@media (min-width: 300px) {
+  #TituloBlanco3 {
+    position: absolute;
+    margin-left: 1.8rem;
+    margin-top: 7.3rem;
+    padding-bottom: 0.5rem;
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 300px) {
+  #TituloNegro3 {
+    position: absolute;
+    margin-left: 1.5rem;
+    margin-top: 7.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 3rem;
+    color: black;
+  }
+}
+
+@media (min-width: 576px) {
+  #TituloBlanco3 {
+    position: absolute;
+    margin-left: 1.9rem;
+    margin-top: 7.1rem;
+    padding-bottom: 0.5rem;
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 576px) {
+  #TituloNegro3 {
+    position: absolute;
+    margin-left: 1.5rem;
+    margin-top: 7.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 5rem;
+    color: black;
+  }
+}
+
+@media (min-width: 768px) {
+  #TituloBlanco3 {
+    position: absolute;
+    margin-left: 1.9rem;
+    margin-top: 7.1rem;
+    padding-bottom: 0.5rem;
+    font-size: 7rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #TituloNegro3 {
+    position: absolute;
+    margin-left: 1.5rem;
+    margin-top: 7.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 7rem;
+    color: black;
+  }
+}
+
+@media (min-width: 992px) {
+  #TituloBlanco3 {
+    position: absolute;
+    margin-left: 1.9rem;
+    margin-top: 7.1rem;
+    padding-bottom: 0.5rem;
+    font-size: 9rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #TituloNegro3 {
+    position: absolute;
+    margin-left: 1.5rem;
+    margin-top: 7.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 9rem;
+    color: black;
+  }
+}
+
+@media (min-width: 1200px) {
+  #TituloBlanco3 {
+    position: absolute;
+    margin-left: 1.9rem;
+    margin-top: 7.1rem;
+    padding-bottom: 0.5rem;
+    font-size: 11rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #TituloNegro3 {
+    position: absolute;
+    margin-left: 1.5rem;
+    margin-top: 7.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 11rem;
+    color: black;
+  }
+}
+
+@media (min-width: 1400px) {
+  #TituloNegro3 {
+    position: absolute;
+    margin-left: 8.5rem;
+    margin-top: 7.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 11rem;
+    color: black;
+  }
+}
+
+@media (min-width: 1400px) {
+  #TituloBlanco3 {
+    position: absolute;
+    margin-left: 9rem;
+    margin-top: 7rem;
+    padding-bottom: 0.5rem;
+    font-size: 11rem;
+  }
+}
+
+/* IMAGEN CONTENIDO TECNICO */
+
+@media (min-width: 300px) {
+  .col-lg-6.d-flex.align-items-end.mh-50vh {
+    background-size: cover;
+  }
+}
+
+@media (min-width: 576px) {
+  .col-lg-6.d-flex.align-items-end.mh-50vh {
+    background-size: contain;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-lg-6.d-flex.align-items-end.mh-50vh {
+    background-size: contain;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-6.d-flex.align-items-end.mh-50vh {
+    background-size: cover;
+  }
+}
+

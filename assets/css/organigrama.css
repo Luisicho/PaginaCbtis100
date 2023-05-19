@@ -1,0 +1,95 @@
+#cabecera {
+  padding-top: 10rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  background-color: #82002C !important;
+}
+
+#titulo2 {
+  font-weight: 800;
+  font-size: 3rem;
+  color: white;
+  font-family: "Open Sans","Helvetica Neue",Arial,sans-serif;
+}
+
+#titulo-1 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Open Sans","Helvetica Neue",Arial,sans-serif;
+}
+
+#organigrama {
+  display: flex;
+  flex-flow: column;
+  padding: 0;
+}
+
+.tarjeta {
+  background-color: black;
+  display: flex;
+  flex-flow: row;
+  border-radius: 20px;
+  align-items: center;
+  width: 40%;
+}
+
+.nombre {
+  font-size: 0.9rem;
+  font-weight: 800;
+  padding-bottom: 0.1rem;
+}
+
+.puesto {
+  font-size: 0.7rem;
+}
+
+.imagen {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+#contenido {
+  display: flex;
+  flex-flow: column;
+}
+
+#imagenphoto {
+  width: 5rem;
+  height: 4rem;
+}
+
+#renglon1 {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+#imagenphoto2 {
+  height: 2rem;
+  width: 2rem;
+}
+
+.tarjeta2 {
+  background-color: black;
+  padding: 0.8rem;
+  border-radius: 20px;
+  margin: 0.5rem;
+}
+
+.cabecera {
+  color: #CF3E6E;
+  font-weight: 600;
+  text-align: center;
+}
+
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: #CF3E6E;
+  border-top: 0;
+}
+

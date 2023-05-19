@@ -1,0 +1,142 @@
+.fa.footer-contacts-icon {
+  background-color: #33383b;
+  font-size: 18px;
+  color: #FFF;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 38px;
+  margin: 10px 15px 10px 0;
+}
+
+.row {
+  --bs-gutter-x: 0.2rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -.2);
+  margin-left: calc(var(--bs-gutter-x) * -.2);
+}
+
+#pieDePagina {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+  bottom: 0;
+  color: #fff;
+}
+
+a {
+  color: #CF3E6E;
+  transition: all .2s;
+  text-decoration: underline;
+}
+
+.footer-contacts p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+}
+
+.footer-navigation p.company-name {
+  color: #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 2rem;
+}
+
+#barraLogo:hover {
+  cursor: pointer;
+}
+
+#barraLogo {
+  width: 94%;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: "Open Sans","Helvetica Neue",Arial,sans-serif;
+}
+
+.footer-about h4 {
+  display: block;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-about p {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+@media (min-width: 300px) {
+  #paragramCorreo {
+    width: 30%;
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .col-sm-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    max-width: 33.3%;
+  }
+}
+
+@media (min-width: 768px) {
+  #paragramCorreo {
+    font-size: 0.6rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #paragramCorreo {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #telefononum {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #paragramCorreo {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #paragramDirec {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #telefononum {
+    font-size: 1.5rem;
+  }
+}
+
+#barraLogo:hover {
+  cursor: pointer;
+}
+
